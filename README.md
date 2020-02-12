@@ -20,4 +20,6 @@ git commit -m "first commit"
 git remote add origin https://github.com/khepf/pt-tracker-pro.git
 git push -u origin master
 ```
+- add `"start": "npm run serve"` to package.json
+
   
