@@ -15,7 +15,9 @@
         <v-btn block rounded large color="primary">log in</v-btn>
       </v-col>
       <v-col class="testclass" col="6" justify="center" align="center">
-        <v-btn block rounded large color="primary">register</v-btn>
+        <v-btn block rounded large color="primary" to="/register"
+          >register</v-btn
+        >
       </v-col>
     </v-row>
   </v-container>
@@ -26,9 +28,3 @@ export default {
   name: "LandingPage"
 };
 </script>
-
-<style lang="scss">
-.testclass {
-  border: 2px solid red;
-}
-</style>
